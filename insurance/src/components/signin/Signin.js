@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { images } from '../../images';
 import Index_signin from './Index';
 import "./signin.scss"
@@ -19,9 +18,7 @@ const Signin = () => {
       </div>
       <div className="login__wrapper container">
         <div className="login__content">
-            <h2 className='title1'>
-                SignIn
-            </h2>
+        <h3 className="title1">Sign In</h3>
           <Index_signin />
         </div>
       </div>

@@ -29,12 +29,21 @@
 
     &__content{
         max-width: 75rem;
+        width: 35rem;
         background-color: var(--light-grey);
-        height: 60vh;
+        height: 62vh;
         color:#000000;
         padding: 4rem;
         border-radius: 25px;
+        position: relative;
+        left: 10%;
+        text-align: center;
         box-shadow: 4px 4px 3px rgba($color: #000000, $alpha: 0.4);
+        h3{
+            color: var(--dark-orange);
+            font-size: 4rem;
+            font-weight: 500;
+        }
 
         @media(max-width:991px){
             max-width: 35rem;
@@ -44,12 +53,6 @@
             padding: 6rem 0;
             text-align: center;
         }
-    }
-
-
-    //text class
-    &__text{
-        padding: 2rem 0;
     }
 
     //img class
@@ -95,6 +98,80 @@
                 top: auto;
             }
         }
+    }
+
+    //button
+    .signin{
+        color: var(--dark-orange);
+      }
+
+    p{
+        margin-top: 0rem;
+        .register{
+            color: var(--dark-orange);
+            &:hover{
+                color: #E06358;
+            }
+            .btn-register{
+                font-size: 1.5rem;
+                border: none;
+                background-color: transparent;
+                color: #E06358;
+                cursor: pointer;
+                padding: 1rem;
+            }
+        }
+    }
+
+    .submit-reset-btn{
+        margin-top: 2rem;
+        width: 70%;
+        position: relative;
+        right: 0;
+        left: 4rem;
+        display: flex;
+        justify-content: space-between;
+        
+        .submit, .reset{
+            background-color: transparent;
+            border: 1px solid var(--dark-orange);
+            padding: 1rem;
+            color: var(--dark-orange);
+            width: 8rem;
+            cursor: pointer;
+        }
+
+        .submit:hover, .reset:hover{
+            color: white;
+            border: none;
+            background-color: #E06358;
+        }
+
+    }
+
+    //input
+    .label{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        padding-top: 1rem;
+        label{
+            opacity: 0.6;
+        }
+        .form-control{
+            margin-top: .1rem;
+            opacity: 1;
+            padding: .8rem;
+            @media(max-width:767px){
+                width: 60%;
+            }
+        }
+    }
+
+    .error{
+        color: red;
+        font-size: 1.2rem;
+        padding-top: .2rem;
     }
 
 }
