@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import { Formik, Form } from "formik";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import TextField from "./TextField";
 import * as Yup from 'yup'; 
 import "./signin.scss";
 
 const Index_signin = () => {
-    
 
     const validate = Yup.object({
         email: Yup.string()

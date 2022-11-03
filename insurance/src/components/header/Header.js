@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "./header.scss"
 import { images } from "../../images";
-import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [open, setOpen] = useState(false)
