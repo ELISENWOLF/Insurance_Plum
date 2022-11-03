@@ -1,0 +1,8 @@
+@import "./reset";
+@import "./variables";
+@import "./base.scss";
+@import "./typography";
+
+*::-webkit-scrollbar{
+    display: none;
+}
