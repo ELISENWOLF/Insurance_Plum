@@ -131,6 +131,10 @@
         left: 4rem;
         display: flex;
         justify-content: space-between;
+        @media(max-width:767px){
+            padding-left: 5rem;
+            width: 65%;
+        }
         
         .submit, .reset{
             background-color: transparent;
@@ -139,6 +143,11 @@
             color: var(--dark-orange);
             width: 8rem;
             cursor: pointer;
+            @media(max-width:767px){
+                width: 7rem;
+                padding: .5rem;
+                font-size: 1.2rem;
+            }
         }
 
         .submit:hover, .reset:hover{
@@ -155,6 +164,12 @@
         flex-direction: column;
         text-align: left;
         padding-top: 1rem;
+        @media(max-width:767px){
+            width: 80%;
+            padding-left: 7rem;
+            text-align: left;
+        }
+       
         label{
             opacity: 0.6;
         }
@@ -162,9 +177,7 @@
             margin-top: .1rem;
             opacity: 1;
             padding: .8rem;
-            @media(max-width:767px){
-                width: 60%;
-            }
+            
         }
     }
 
