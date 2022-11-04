@@ -35,7 +35,7 @@ const Index_signin = () => {
             <button className="submit" type="submit">Sign In</button>
             <button className="reset" type="reset">Reset</button>
             </div>
-            <p>Already have an account!<Link to='/register' className="register"><button className="btn-register">Signin</button></Link></p>
+            <p>Already have an account!<Link to='/register' className="register"><button className="btn-register">Sign Up</button></Link></p>
           </Form>
         </div>
       )}

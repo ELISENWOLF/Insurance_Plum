@@ -1,0 +1,72 @@
+.declaration_page{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    padding: 0 4rem;
+    
+    .left_box{
+        width: 70%;
+    }
+    .first_declara, .second_declara,
+    .third_declara, .fourth_declara{
+        display: flex;
+        p{
+            width: 80%;
+        }
+    }
+    input[type="checkbox"]{
+        position: relative;
+        top: 1.5rem;
+        margin-right: 2rem;
+        appearance: none;
+        height: 18px;
+        width: 18px;
+        border: 1px solid rgba(#0000, 0.2);
+        border-radius: 2px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: brown;
+        cursor: pointer;
+
+        &:after{
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f00c";
+            font-size: 12px;
+            color: white;
+            display: none;
+        }
+        &:hover{
+            background-color: #d67b73;
+        }
+        &:checked{
+            background-color: #E06358;
+            &:after{
+                display: block;
+            }
+        }
+    }
+}
+
+.right_box{
+    width: 25%;
+    height: 50%;
+    position: relative;
+    right: 0rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    .right_declara_head{
+        text-align: center;
+        h2{
+            font-size: 24px;
+            color: #55657D;
+        }
+    }
+    h4{
+        font-size: 14px;
+        margin-bottom: 1rem;
+        color: #2D3D54;
+    }
+}

@@ -1,0 +1,118 @@
+.planinfo_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_main_body{
+    background-color: transparent;
+    
+    .plan_details{
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        width: 50%;
+    }
+   .plan_details_head, .basic_details_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+    .plan_label{
+        margin-bottom: 0.5rem;
+        color: #2D3D54;
+        font-size: 14px;
+        font-size: 500;
+        opacity: 0.8;
+    }
+}
+
+.basic_details{
+        margin-top: 1rem;
+        background-color: white;
+        padding: 1rem;
+        border-radius: 5px;
+        width: 50%;
+}
+
+.basic-input_body{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .basic_label{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        color: #2D3D54;
+        font-size: 14px;
+        font-size: 500;
+        opacity: 0.8;
+    }
+    input{
+        padding: 3px 20px;
+        width: 90%;
+        border: 1px solid #8C98AB;
+        border-radius: 5px;
+    }
+    
+}
+
+.left_planinfo{
+    width: 100%;
+}
+
+.right_planinfo{
+    width: 25%;
+    height: 50%;
+    position: relative;
+    right: 40rem;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 5px;
+    .right_plan_head{
+        text-align: center;
+        h2{
+            font-size: 24px;
+            color: #55657D;
+        }
+    }
+    h4{
+        font-size: 14px;
+        margin-bottom: 1rem;
+        color: #2D3D54;
+    }
+}
+
+//Dropdown
+.dropdown{
+    width: 70%;
+    margin: 0px;
+    position: relative;
+    border: 1px solid #8C98AB;
+    border-radius: 5px;
+    overflow-wrap: hidden;
+
+    .dropdown-btn{
+        padding: 3px 20px;
+        background: White;
+        box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+        opacity: 0.6;
+        font-weight: 400;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .dropdown-content{
+        position: absolute;
+        padding: 15px;
+        width: 100%;
+        background: white;
+        z-index: 20;
+    }
+
+    .div{
+        z-index: 1000;
+    }
+}

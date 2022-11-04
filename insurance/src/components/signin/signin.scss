@@ -31,7 +31,7 @@
         max-width: 75rem;
         width: 35rem;
         background-color: var(--light-grey);
-        height: 62vh;
+        height: 60%;
         color:#000000;
         padding: 4rem;
         border-radius: 25px;
@@ -45,6 +45,11 @@
             font-weight: 500;
         }
 
+        @media(max-width:600px){
+            position: relative;
+            left: 5%;
+            width: 90%;
+        }
         @media(max-width:991px){
             max-width: 35rem;
         }
@@ -143,6 +148,7 @@
             color: var(--dark-orange);
             width: 8rem;
             cursor: pointer;
+            border-radius: 10px;
             @media(max-width:767px){
                 width: 7rem;
                 padding: .5rem;
