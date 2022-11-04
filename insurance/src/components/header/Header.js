@@ -19,7 +19,7 @@ const Header = () => {
         <Link to='/' className="link"><li>Home</li></Link>
           <li><Link to='#' className="link">About</Link></li>
           <li><Link to='#' className="link">Contact</Link></li>
-          <Link to='/signin' className="signin"><li className="btn btn--nav-btn">Signin</li></Link>
+          <Link to='/signin' className="signin"><li className="btn btn--nav-btn">Sign in</li></Link>
         </ul>
         <div className="hamburger">
           <img src={images.hamburger} alt="" onClick={handleclick}/>

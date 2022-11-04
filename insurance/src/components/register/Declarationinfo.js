@@ -29,7 +29,7 @@ const Declarationinfo = () => {
       <div className='right_declara_head'><h2>Form Preview</h2></div>
           <hr />
           <div className=''>
-            <h4>Persona email address</h4>
+            <h4>Personal email address</h4>
             <h4>Mobile number</h4>
             <h4>Address line 01</h4>
             <h4>Address line 02</h4>

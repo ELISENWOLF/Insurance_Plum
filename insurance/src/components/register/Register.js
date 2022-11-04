@@ -8,11 +8,19 @@ import "./register.scss";
 
 const Register = () => {
   const [page, setPage] = useState(0);
+  const [formData, setFormData] = useState({
+    email:"",
+    address1:"",
+    pincode:"",
+    number:"",
+    address2:"",
+    State:""
+  })
 
   const FormTitles = ["Choose your plan", "Select your deductible amount", "Declaration", "Review and confirm payment"];
   const PageDisplay = () => {
     if (page === 0) {
-      return <Planinfo />;
+      return <Planinfo formData={formData} setFormData={setFormData}/>;
     } else if (page === 1) {
       return <Deductinfo />;
     } else if (page === 2) {
@@ -47,12 +55,15 @@ const Register = () => {
       <div className="footer">
         <button
           className="next"
-          disabled={page === FormTitles.length - 1}
           onClick={() => {
-            setPage((currPage) => currPage + 1);
+            if( page === FormTitles.length - 1 ){
+              alert("Form Submitted")
+            }else {
+              setPage((currPage) => currPage + 1);
+            }
           }}
         >
-          Next
+          {page === FormTitles.length-1 ? "Submit" : "Next"}
         </button>
       </div>
     </div>
