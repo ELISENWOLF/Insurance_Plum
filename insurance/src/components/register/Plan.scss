@@ -3,6 +3,20 @@
     justify-content: space-between;
     position: relative;
     left: 5rem;
+    @media(max-width:480px){
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 3rem;
+      }
+      @media(max-width:991px){
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+      }
+      @media(max-width:1260px){
+        width: 90%;
+      }
 }
 
 .plan_main_body{
@@ -13,6 +27,15 @@
         padding: 1rem;
         border-radius: 5px;
         width: 50%;
+        @media(max-width:480px){
+            width: 100%;
+          }
+          @media(max-width:991px){
+            width: 100%;
+          }
+          @media(max-width:1260px){
+            width: 100%;
+          }
     }
    .plan_details_head, .basic_details_head{
     display: flex;
@@ -38,6 +61,15 @@
         padding: 1rem;
         border-radius: 5px;
         width: 50%;
+        @media(max-width:480px){
+            width: 100%;
+          }
+          @media(max-width:991px){
+            width: 100%;
+          }
+          @media(max-width:1260px){
+            width: 100%;
+          }
 }
 
 .basic-input_body{
@@ -84,6 +116,23 @@
         margin-bottom: 1rem;
         color: #2D3D54;
     }
+    @media(max-width:480px){
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        width: 100%;
+      }
+      @media(max-width:991px){
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        margin-top: 2rem;
+      }
+      @media(max-width:1260px){
+        position: relative;
+        left: 2rem;
+        margin-top: 2rem;
+      }
 }
 
 //Dropdown
@@ -115,7 +164,7 @@
     }
 
     .dropdwon-item{
-        height: 8vh;
+        height: 20%;
     }
 
     .drop_item_head{

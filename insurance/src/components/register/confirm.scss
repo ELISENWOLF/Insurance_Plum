@@ -1,0 +1,35 @@
+.confirm{
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 10px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    h3{
+        font-size: 16px;
+        color: #55657D;
+        @media(max-width:480px){
+            font-size: 10px;
+    
+          }
+          @media(max-width:767px){
+            font-size: 12px;
+          }
+
+    }
+    h2{
+        font-size: 16px;
+        color: #182639;
+        font-weight: 500;
+        @media(max-width:480px){
+            font-size: 10px;
+    
+          }
+          @media(max-width:767px){
+            font-size: 12px;
+          }
+    }
+}

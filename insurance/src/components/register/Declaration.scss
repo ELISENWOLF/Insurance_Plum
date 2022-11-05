@@ -3,9 +3,25 @@
     justify-content: space-between;
     margin-top: 1rem;
     padding: 0 4rem;
+    @media(max-width:480px){
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0rem;
+      }
+      @media(max-width:991px){
+        display: flex;
+        flex-direction: column;
+      }
     
     .left_box{
         width: 70%;
+        @media(max-width:480px){
+            width: 100%;
+          }
+          @media(max-width:991px){
+            width: 100%;
+          }
     }
     .first_declara, .second_declara,
     .third_declara, .fourth_declara{
@@ -64,6 +80,18 @@
             color: #55657D;
         }
     }
+    @media(max-width:480px){
+        position: relative;
+        top: 0rem;
+        left: 0rem;
+        width: 100%;
+      }
+      @media(max-width:991px){
+        width: 100%;
+        position: relative;
+        left: 0rem;
+        margin-top: 2rem;
+      }
     h4{
         font-size: 14px;
         margin-bottom: 1rem;
