@@ -81,7 +81,7 @@ const Planinfo = ({formData, setFormData}) => {
             <h4>Address line 01 - {formData.address1}</h4>
             <h4>Address line 02 - {formData.address2}</h4>
             <h4>Pincode - {formData.pincode}</h4>
-            <h4>State - {formData.pincode}</h4>
+            <h4>State - {formData.State}</h4>
           </div>
        </div>
     </div>
