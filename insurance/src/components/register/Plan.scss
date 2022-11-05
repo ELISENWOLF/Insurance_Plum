@@ -89,6 +89,10 @@
         border: 1px solid #8C98AB;
         border-radius: 5px;
     }
+    @media(max-width:480px){
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+      }
     
 }
 
