@@ -27,7 +27,7 @@
         background-color: white;
         padding: 1rem;
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         @media(max-width:480px){
             width: 100%;
           }
@@ -35,7 +35,7 @@
             width: 100%;
           }
           @media(max-width:1260px){
-            width: 100%;
+            width: 95%;
           }
     }
    .plan_details_head, .basic_details_head{
@@ -61,7 +61,7 @@
         background-color: white;
         padding: 1rem;
         border-radius: 5px;
-        width: 100%;
+        width: 95%;
         @media(max-width:480px){
             width: 100%;
           }
@@ -69,7 +69,7 @@
             width: 100%;
           }
           @media(max-width:1260px){
-            width: 100%;
+            width: 95%;
           }
 }
 
@@ -123,6 +123,9 @@
         position: relative;
         left: 0rem;
         margin-top: 2rem;
+      }
+      @media(max-width:1260px){
+        width: 95%;
       }
 }
 
