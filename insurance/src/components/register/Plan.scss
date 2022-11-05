@@ -1,5 +1,6 @@
 .planinfo_container{
     display: flex;
+    width: 90%;
     justify-content: space-between;
     position: relative;
     left: 5rem;
@@ -26,7 +27,7 @@
         background-color: white;
         padding: 1rem;
         border-radius: 5px;
-        width: 50%;
+        width: 100%;
         @media(max-width:480px){
             width: 100%;
           }
@@ -60,7 +61,7 @@
         background-color: white;
         padding: 1rem;
         border-radius: 5px;
-        width: 50%;
+        width: 100%;
         @media(max-width:480px){
             width: 100%;
           }
@@ -121,9 +122,6 @@
         width: 100%;
         position: relative;
         left: 0rem;
-        margin-top: 2rem;
-      }
-      @media(max-width:1260px){
         margin-top: 2rem;
       }
 }
