@@ -37,10 +37,10 @@ const Hero = () => {
           </div>
         </div>
         <div className="left-bottom-image">
-        <picture>
-              <source media="(max-width:767px)" srcSet={images.intro_left_mobile} />
-              <img src={images.intro_left} alt="" />
-            </picture>
+          <picture>
+            <source media="(max-width:767px)" srcSet={images.intro_left_mobile} />
+            <img src={images.intro_left} alt="" />
+          </picture>
         </div>
       </div>
     </div>

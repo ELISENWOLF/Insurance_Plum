@@ -1,36 +1,45 @@
-.declaration_page{
+.declaration_page {
     display: flex;
     justify-content: space-between;
     margin-top: 1rem;
     padding: 0 4rem;
-    @media(max-width:480px){
+
+    @media(max-width:480px) {
         display: flex;
         flex-direction: column;
         position: relative;
         left: 0rem;
-      }
-      @media(max-width:991px){
+    }
+
+    @media(max-width:991px) {
         display: flex;
         flex-direction: column;
-      }
-    
-    .left_box{
-        width: 70%;
-        @media(max-width:480px){
-            width: 100%;
-          }
-          @media(max-width:991px){
-            width: 100%;
-          }
     }
-    .first_declara, .second_declara,
-    .third_declara, .fourth_declara{
+
+    .left_box {
+        width: 70%;
+
+        @media(max-width:480px) {
+            width: 100%;
+        }
+
+        @media(max-width:991px) {
+            width: 100%;
+        }
+    }
+
+    .first_declara,
+    .second_declara,
+    .third_declara,
+    .fourth_declara {
         display: flex;
-        p{
+
+        p {
             width: 80%;
         }
     }
-    input[type="checkbox"]{
+
+    input[type="checkbox"] {
         position: relative;
         top: 1.5rem;
         margin-right: 2rem;
@@ -45,7 +54,7 @@
         color: brown;
         cursor: pointer;
 
-        &:after{
+        &:after {
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
             content: "\f00c";
@@ -53,19 +62,22 @@
             color: white;
             display: none;
         }
-        &:hover{
+
+        &:hover {
             background-color: #d67b73;
         }
-        &:checked{
+
+        &:checked {
             background-color: #E06358;
-            &:after{
+
+            &:after {
                 display: block;
             }
         }
     }
 }
 
-.right_box{
+.right_box {
     width: 25%;
     height: 50%;
     position: relative;
@@ -73,26 +85,31 @@
     background-color: white;
     padding: 2rem;
     border-radius: 5px;
-    .right_declara_head{
+
+    .right_declara_head {
         text-align: center;
-        h2{
+
+        h2 {
             font-size: 24px;
             color: #55657D;
         }
     }
-    @media(max-width:480px){
+
+    @media(max-width:480px) {
         position: relative;
         top: 0rem;
         left: 0rem;
         width: 100%;
-      }
-      @media(max-width:991px){
+    }
+
+    @media(max-width:991px) {
         width: 100%;
         position: relative;
         left: 0rem;
         margin-top: 2rem;
-      }
-    h4{
+    }
+
+    h4 {
         font-size: 14px;
         margin-bottom: 1rem;
         color: #2D3D54;

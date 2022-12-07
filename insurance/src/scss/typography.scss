@@ -13,9 +13,11 @@ h1,
 .title1 {
   font-size: 6rem;
   position: relative;
+
   @media (max-width: 767px) {
     font-size: 4rem;
   }
+
   &::before {
     content: "";
     position: absolute;
@@ -23,11 +25,13 @@ h1,
     height: 2px;
     top: -5rem;
     background-color: var(--white);
+
     @media screen and (max-width: 767px) {
       display: none;
     }
   }
 }
+
 .title1--mod {
   &::before {
     content: "";
@@ -46,10 +50,10 @@ p {
   line-height: 1.5;
 }
 
-li{
+li {
   cursor: pointer;
 }
 
-.link{
+.link {
   text-decoration: none;
 }

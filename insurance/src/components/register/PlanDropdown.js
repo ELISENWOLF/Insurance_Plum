@@ -30,7 +30,7 @@ const PlanDropdown = ({ selected, setSelected }) => {
               <h4>One (Individual)</h4>
             </div>
             <div className="drop-item-value">
-              <div className="drop_item_name"><BoyIcon className="icon_s"/>Self</div>
+              <div className="drop_item_name"><BoyIcon className="icon_s" />Self</div>
               <h5>₹600</h5>
             </div>
             <hr />
@@ -40,7 +40,7 @@ const PlanDropdown = ({ selected, setSelected }) => {
               <h4>Pro (Individual)</h4>
             </div>
             <div className="drop-item-value">
-              <div className="drop_item_name"><PeopleAltIcon className="icon_p"/>Parents</div>
+              <div className="drop_item_name"><PeopleAltIcon className="icon_p" />Parents</div>
               <h5>₹0</h5>
             </div>
             <hr />
@@ -50,7 +50,7 @@ const PlanDropdown = ({ selected, setSelected }) => {
               <h4>Plus (Individual + Individual)</h4>
             </div>
             <div className="drop-item-value">
-              <div className="drop_item_name"><Diversity3Icon className="icon_sp"/>Self + Parents</div>
+              <div className="drop_item_name"><Diversity3Icon className="icon_sp" />Self + Parents</div>
               <h5>₹600</h5>
             </div>
             <hr />
@@ -60,7 +60,7 @@ const PlanDropdown = ({ selected, setSelected }) => {
               <h4>Max (Floater)</h4>
             </div>
             <div className="drop-item-value">
-              <div className="drop_item_name"><FamilyRestroomIcon className="icon_ssk"/>Self + Spouse + Kids</div>
+              <div className="drop_item_name"><FamilyRestroomIcon className="icon_ssk" />Self + Spouse + Kids</div>
               <h5>₹1800</h5>
             </div>
             <hr />
@@ -70,7 +70,7 @@ const PlanDropdown = ({ selected, setSelected }) => {
               <h4>Grand (Floater + Individual)</h4>
             </div>
             <div className="drop-item-value">
-              <div className="drop_item_name"><Diversity1Icon className="icon_spsk"/>
+              <div className="drop_item_name"><Diversity1Icon className="icon_spsk" />
                 Self + Parents + Spouse + Kids
               </div>
               <h5>₹1800</h5>

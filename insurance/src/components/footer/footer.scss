@@ -1,82 +1,94 @@
-footer{
+footer {
     background-color: var(--light-grey);
     position: relative;
-    
-    .logo{
+
+    .logo {
         max-width: 15rem;
     }
 
-    .footer-header{
+    .footer-header {
         display: flex;
         justify-content: space-between;
         padding: 3rem 0;
         width: 100%;
-        @media(max-width:480px){
+
+        @media(max-width:480px) {
             flex-direction: column;
             align-items: center;
-            .logo{
+
+            .logo {
                 padding-bottom: 1rem;
             }
         }
     }
 
-    .footer-art{
-        img{
+    .footer-art {
+        img {
             max-width: 40rem;
             position: absolute;
         }
     }
 
-    .footer{
+    .footer {
         width: 100%;
-        @media(max-width:767px){
+
+        @media(max-width:767px) {
             padding: 0 4rem;
         }
-        img{
+
+        img {
             max-width: 10rem;
         }
     }
-    .social-media-icons{
+
+    .social-media-icons {
         display: flex;
         width: 50%;
         justify-content: space-between;
         max-width: 25rem;
-        img{
+
+        img {
             max-width: 3rem;
             cursor: pointer;
         }
-        @media(max-width:480px){
-            img{
+
+        @media(max-width:480px) {
+            img {
                 max-width: 2rem;
             }
         }
     }
 
-    .footer-menu{
+    .footer-menu {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 2rem;
         padding: 3rem 0;
 
-        div{
+        div {
             margin: 5px 0;
         }
-        h4{
+
+        h4 {
             padding-bottom: 2rem;
             font-size: 2rem;
             opacity: 0.5;
         }
-        li{
+
+        li {
             padding: 5px 0;
             font-weight: 700;
         }
-        @media(max-width:767px){
+
+        @media(max-width:767px) {
             grid-template-columns: repeat(2, 1fr);
         }
-        @media(max-width:480px){
+
+        @media(max-width:480px) {
             grid-template-columns: repeat(1, 1fr);
             place-items: center;
-            div{
+
+            div {
                 text-align: center;
             }
         }
